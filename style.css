@@ -1,30 +1,30 @@
 
-  .topnav {
-    background-color:black;
+.topnav {
+    background-color: #4aaaa5;
     overflow: hidden;
   }
   
   
-  .topnav a {
+.topnav a {
     float: right;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-  }
+}
 
   
-  .topnav a:hover {
+.topnav a:hover {
     background-color:#ddd;
     color: black;
-  }
+}
   
-  .topnav a.active {
+.topnav a.active {
     background-color: #4CAF50;
     color: white;
-  }
-  input[type=text], textarea {
+}
+input[type=text], textarea {
     width: 99%; 
     padding: 12px; 
     border: 1px solid #ccc; 
@@ -33,36 +33,40 @@
     resize: none
 
   
-  }
+}
 
-  input[type=submit] {
+input[type=submit] {
     background-color: black;
     color: white;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-  }
+}
   
-  input[type=submit]:hover {
+input[type=submit]:hover {
     background-color:grey;
-  }
+}
   
 
-  .container {
+.container {
     border-radius: 5px;
     background-color:rgb(255, 255, 255);
     padding: 20px;
-  }
+    margin-right: 50px;
+    
+}
+
 img {
     float: left;
     margin-right:25px;
 }
 
   
-  p { 
-   
+p { 
+    color: #777777;
     background-color: lavender; 
+    font-family: 'Arial', 'Helvetica Neue', Arial, Helvetica, sans-serif;
 }
 .home{
         margin:0 auto; 
@@ -74,4 +78,8 @@ img {
         padding: 60px;
         margin: 150px;
         line-height: 1.5;
-      }
+        
+}
+head{
+  font-family: 'Georgia', Times, 'Times New Roman',serif;
+}
