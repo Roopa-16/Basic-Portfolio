@@ -6,11 +6,11 @@
   
   
 .topnav a {
-    float: right;
-    color: white;
+
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
+    float: right;
+    color: white;
     font-size: 17px;
 }
 
@@ -30,7 +30,7 @@ input[type=text], textarea {
     border: 1px solid #ccc; 
     margin-top: 6px; 
     margin-bottom: 16px; 
-    resize: none
+   resize: none;
 
   
 }
@@ -59,7 +59,7 @@ input[type=submit]:hover {
 
 img {
     float: left;
-    margin-right:25px;
+    margin-right:20px;
 }
 
   
@@ -83,4 +83,12 @@ p {
 head{
   font-family: 'Georgia', Times, 'Times New Roman',serif;
   
+  
+}
+hr{
+    display: block;
+    border-width: 3px;
+    color: black;
+    border-color:black;
+
 }
