@@ -1,6 +1,6 @@
 
 .topnav {
-    background-color: #4aaaa5;
+    background-color: #000202;
     overflow: hidden;
   }
   
@@ -21,7 +21,7 @@
 }
   
 .topnav a.active {
-    background-color: #4CAF50;
+    background-color: black;
     color: white;
 }
 input[type=text], textarea {
@@ -70,7 +70,7 @@ p {
 }
 .home{
         margin:0 auto; 
-        text-align: center;
+        text-align: left;
         align-self: center;
         background-color: lightgrey;
         width: 960px;
