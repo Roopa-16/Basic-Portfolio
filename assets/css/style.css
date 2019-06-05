@@ -52,7 +52,7 @@ input[type=submit]:hover {
 .container {
     border-radius: 5px;
     background-color:rgb(255, 255, 255);
-    padding: 20px;
+    padding: 50px;
     margin-right: 50px;
     
 }
@@ -75,7 +75,7 @@ p {
         background-color: lightgrey;
         width: 960px;
         border: 20px solid lavender;
-        padding: 60px;
+        padding: 100px;
         margin: 150px;
         line-height: 1.5;
         
@@ -91,4 +91,36 @@ hr{
     color: black;
     border-color:black;
 
+}
+.port1{
+    float: left;
+    width: 350px;
+    border: 2px;
+    border-color: black;
+    background-color: black;
+    text: white;
+    height: 250px;
+    text-align: center;
+
+}
+.port2{
+    float: right;
+    width: 350px;
+    border: 2px;
+    border-color: black;
+    background-color: black;
+    text: white;
+    height: 250px;
+    text-align: center;
+
+}
+.port3{
+    float: center 
+    width: 350px;
+    border: 2px;
+    border-color: black;
+    background-color: black;
+    text: white;
+    height: 250px;
+    text-align: center;
 }
